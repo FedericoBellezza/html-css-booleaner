@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+/* header section */
 .header-section{
     background-color: rgb(56, 135, 209);
     background-image: url("../img/pattern.png");
@@ -11,7 +13,33 @@
 }
 
 .logo{
-    width: 200px;
+    width: 300px;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: 10px;
+}
+
+/* main section */
+.main-section{
+    margin-left: 10px;
+}
+
+.title{
+    font-size: 70px;
+}
+
+.title-caption{
+    font-size: 30px;
+    color: #636363;
+}
+
+.author-name{
+    color: #199dc9;
+}
+
+.tim-pictures{
+    margin-top: 25px;
+}
+
+.picture{
+    height: 650px;
 }
