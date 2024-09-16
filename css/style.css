@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 20px;
 }
 
 
@@ -24,6 +25,7 @@
 }
 
 .title{
+    margin-top: 25px;
     font-size: 70px;
 }
 
@@ -43,3 +45,34 @@
 .picture{
     height: 650px;
 }
+
+.highlighted-text{
+    background-color: #ffff00;
+}
+
+.un-list{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+/* table */
+table{
+    margin-block: 20px;
+    text-align: left;
+}
+
+thead{
+    color: #ffffff;
+    background-color: #199dc9;
+}
+
+td{
+    width: 24vw;
+    font-weight: 700;
+}
+
+td:last-child{
+    width: 55vw;
+}
+
+tr:first
