@@ -61,13 +61,14 @@
 table{
     margin-block: 20px;
     text-align: left;
+    border-collapse: collapse;
 }
 
-tr:nth-child(odd){
-    background-color: #199dc9;
+tr:nth-child(even){
+    background-color: #9de5f1;
 }
 
-thead{
+th{
     color: #ffffff;
     background-color: #199dc9;
 }
